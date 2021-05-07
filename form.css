@@ -1,0 +1,79 @@
+
+body {font-family: Arial, Helvetica, sans-serif;
+ background-image: url("images1/formbackground1.jfif")
+}
+
+.rf{
+  margin-left: 70px;
+}
+form
+ {
+  
+  width: 40%;
+  margin-left: 35%;
+  margin-top: 100px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 70%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 8px ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  margin-left: 80px;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+}
+
+button:hover {
+  background-color:orange;
+}
+
+.container a
+{
+  color: black;
+  text-decoration: none;
+}
+.container h5
+{
+  margin-left: 125px;
+}
+.container a:hover
+{
+  color: orange;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  input[type=text], input[type=password], input[type=email]
+  {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  button
+  {
+    width: 50%;
+    margin-left: 110px;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+  form
+  {
+    width: 100%;
+    margin-left: 0px;
+    float: none;
+  }
+}
